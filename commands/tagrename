@@ -1,0 +1,2 @@
+#!/bin/bash
+env WINEPREFIX="/home/dan/.wine" wine C:\\Program\ Files\\TagRename\\TagRename.exe 

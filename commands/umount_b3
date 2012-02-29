@@ -1,0 +1,5 @@
+#!/bin/sh
+if [ $(mount | grep -c dan@b3) -gt 0 ]; then
+	fusermount -uz /home/dan/b3
+	fusermount -uz /home/dan/storage
+fi

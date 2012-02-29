@@ -1,0 +1,2 @@
+#!/bin/bash
+env WINEPREFIX="/home/dan/.wine" wine C:\\Program\ Files\\Sonos\\sonos.exe 2> /dev/null &

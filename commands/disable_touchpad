@@ -1,0 +1,3 @@
+#!/bin/bash
+echo -n 0x90 0x80 > /sys/devices/platform/i8042/serio4/setreg
+echo -n c > /sys/devices/platform/i8042/serio4/flags

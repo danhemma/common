@@ -1,0 +1,3 @@
+#!/bin/sh
+sshfs -o idmap=user dan@b3.local:/home/dan /home/dan/b3
+sshfs -o idmap=user dan@b3.local:/home/storage /home/dan/storage
