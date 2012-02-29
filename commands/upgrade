@@ -1,0 +1,2 @@
+apt-get upgrade
+apt-get dist-upgrade

@@ -1,0 +1,6 @@
+#!/bin/sh
+RES=`ip route | grep -c "dev ppp0"`
+if [ $RES = 0 ]; then
+	killall rtorrent 2> /dev/null
+	echo "Killed rtorrent due to missing ppp0" >> /var/log/syslog
+fi
